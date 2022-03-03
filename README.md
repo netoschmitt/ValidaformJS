@@ -9,3 +9,10 @@ estão sendo validados, checagem, se os campos estão vazios;
 - metodo validaUsuario() - verifica a condição de caracteres atravez de expressões regulares *if(!usuario.match(/^[a-zA-Z0-9]+$/g))*
 - metodo senhasValidas() - verificação com um metodo aparte senhasSãoValidas(),checa a condição senha e lança seus erros.
 - finalizando em *handleSubmit(e)* a verificação se campos e senhas são validos,(flag valid = true),executa o submit do formulario.
+
+
+Formulário de cadastro
+- Nenhum Campo pode estar vazio
+- Usuário só poderá conter letras e /ou números
+- Usuário deverá ter entre 3 e 12 caracteres
+- Senha precisa ter entre 6 e 12 caracteres
